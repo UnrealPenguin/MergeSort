@@ -14,6 +14,10 @@ class createSquare(createShape):
     def getFurthestPt(self):
         return self.x2
 
+    # returns the length of a side
+    def getLength(self):
+        return self.x2-self.x1
+
     # returns the total area of the square
     def getArea(self):
         return (self.x2-self.x1)*(self.y2-self.y1)
